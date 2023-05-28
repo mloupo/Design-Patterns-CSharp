@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Decorator
+namespace Facade
 {
-    internal interface IComponente
+    public class Desarrollador : Persona
     {
-        double Costo();
-        string Funciona();
     }
 }

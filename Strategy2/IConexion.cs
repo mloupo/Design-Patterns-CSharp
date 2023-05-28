@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Decorator
+namespace Strategy2
 {
-    internal interface IComponente
+    internal interface IConexion
     {
-        double Costo();
-        string Funciona();
+        string Conectar();
+
+        bool ConexionEstablecida();
     }
 }

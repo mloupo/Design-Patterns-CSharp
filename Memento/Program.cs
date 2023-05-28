@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Decorator
+namespace Memento
 {
-    internal interface IComponente
+    internal class Program
     {
-        double Costo();
-        string Funciona();
+        static void Main(string[] args)
+        {
+        }
     }
 }

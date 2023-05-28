@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{73CC2464-7BF5-4EF3-86AD-A89DD08BE71E}</ProjectGuid>
+    <ProjectGuid>{0DD64C66-C074-4B03-BE3C-6881F336EA04}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>VisitorPattern</RootNamespace>
-    <AssemblyName>VisitorPattern</AssemblyName>
+    <RootNamespace>FactoryPattern</RootNamespace>
+    <AssemblyName>FactoryPattern</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataBases\BaseDatosGenerica.cs" />
+    <Compile Include="Configuracion.cs" />
+    <Compile Include="DataBases\MySql.cs" />
+    <Compile Include="DataBases\Oracle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DataBases\SqlServer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
