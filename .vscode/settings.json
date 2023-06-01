@@ -1,0 +1,5 @@
+{
+  "zowe.settings.version": 2,
+  "editor.tabCompletion": "on",
+  "diffEditor.codeLens": true
+}
